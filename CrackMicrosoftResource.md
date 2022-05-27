@@ -29,16 +29,16 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 
 | Problem Link | Status | Difficulty |
 | ------ | ------ | ------ |
-| [2 Sum](https://leetcode.com/problems/two-sum/)  |  |  |
-| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |  |  |
-| [Add 2 Numbers](https://leetcode.com/problems/add-two-numbers/) |  |  |
-| [Copy linked list with arbitrary pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  |  |  |
-| [Level Order Tree Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  |  |  |
-| [Connect all Siblings](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  |  |  |
-| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |  |  |
+| [2 Sum](https://leetcode.com/problems/two-sum/)  |Hashmap  |  |
+| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |flag and start from end  |  |
+| [Add 2 Numbers](https://leetcode.com/problems/add-two-numbers/) |Reverse them , then add and then again reverse  |  |
+| [Copy linked list with arbitrary pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | Use hashmap |  |
+| [Level Order Tree Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  | queue |  |
+| [Connect all Siblings](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  |Without using queue using two pointers  |  |
+| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |two method substr and reverse  |  |
 | [Find all Palindrome Substrings](https://leetcode.com/problems/palindromic-substrings/)  |  |  |
 | [Find maximum single sell profit](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  |  |  |
-| [Missing Number](https://leetcode.com/problems/missing-number/)  |  |  |
+| [Missing Number](https://leetcode.com/problems/missing-number/)  |xor method and sum method  |  |
 
 
 ---
