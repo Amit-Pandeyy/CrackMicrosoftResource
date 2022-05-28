@@ -48,7 +48,7 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 
 | Problem Link | Status | Difficulty |
 | ------ | ------ | ------ |
-| [Find all sum combinations]( https://leetcode.com/problems/combination-sum/) |  |  |
+| [Find all sum combinations]( https://leetcode.com/problems/combination-sum/) |Backtracking base case keep taget=0 above cur>=n case choose not choose  |  |
 | [Regular Expression Matching]( https://leetcode.com/problems/regular-expression-matching/)  |  |  |
 | [Clone a directed graph](https://leetcode.com/problems/clone-graph/)  |  |  |
 | [Closest Meeting Point]( https://www.educative.io/m/closest-meeting-point) |  |  |
