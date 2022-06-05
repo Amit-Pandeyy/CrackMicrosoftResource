@@ -48,10 +48,10 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 
 | Problem Link | Status | Difficulty |
 | ------ | ------ | ------ |
-| [Find all sum combinations]( https://leetcode.com/problems/combination-sum/) |  |  |
-| [Regular Expression Matching]( https://leetcode.com/problems/regular-expression-matching/)  |  |  |
-| [Clone a directed graph](https://leetcode.com/problems/clone-graph/)  |  |  |
-| [Closest Meeting Point]( https://www.educative.io/m/closest-meeting-point) |  |  |
+| [Find all sum combinations]( https://leetcode.com/problems/combination-sum/) |Recursion and Backtarcking take and not take concept as all distinct answers will be unique  |  |
+| [Regular Expression Matching]( https://leetcode.com/problems/regular-expression-matching/)  | Watch striver video dp -34 |  |
+| [Clone a directed graph](https://leetcode.com/problems/clone-graph/)  |Use dfs approach along with hashmap return node* from function call dfs for each keep adding return node as neighbour at last return new node  |  |
+| [Closest Meeting Point]( https://www.educative.io/m/closest-meeting-point) |Centroid is the closest point in most cases to handle edge case also check 8 neighbours of centroid  |  |
 | [Search 2D Matrix]( https://leetcode.com/problems/search-a-2d-matrix//) |  |  |
 | [Is Binary Number Multiple of 3]( https://practice.geeksforgeeks.org/problems/is-binary-number-multiple-of-30654/1)  |  |  |
 | [Kadane's Algorithm]( https://leetcode.com/problems/maximum-subarray/)  |  |  |
