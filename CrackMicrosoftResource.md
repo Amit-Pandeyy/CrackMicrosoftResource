@@ -54,10 +54,10 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Closest Meeting Point]( https://www.educative.io/m/closest-meeting-point) |Centroid is the closest point in most cases to handle edge case also check 8 neighbours of centroid  check solution once |  |
 | [Search 2D Matrix]( https://leetcode.com/problems/search-a-2d-matrix//) |apply binary search by considering whole matrix as single array convert your mid to coordinates in each iteration x=mid/n , y=mid%n  use while(l<=r) when l=mid+1 and r=mid-1 |  |
 | [Is Binary Number Multiple of 3]( https://practice.geeksforgeeks.org/problems/is-binary-number-multiple-of-30654/1)  |Find delta which (no of odd set bits - no of even set bits) if delta div by 3 then return 1 else return 0  |  |
-| [Kadane's Algorithm]( https://leetcode.com/problems/maximum-subarray/)  |  |  |
-| [Majority Element]( https://leetcode.com/problems/majority-element/)  |  |  |
-| [Search in a Rotated Array]( https://leetcode.com/problems/search-in-rotated-sorted-array/)  |  |  |
-| [Check for BST]( https://leetcode.com/problems/validate-binary-search-tree/) |  |  |
+| [Kadane's Algorithm]( https://leetcode.com/problems/maximum-subarray/)  |One trick first initialise ans= num[0] then calucalte prefix sum if(sum>ans) update ans whenever at any poimt sum<0 Update sum =0  |  |
+| [Majority Element]( https://leetcode.com/problems/majority-element/)  |Exploit the always exist thing to find use a count and num variable  if(count=0) num = cur_value  if(cur_value==num) count++  else count--;  at the end return num as answer  |  |
+| [Search in a Rotated Array]( https://leetcode.com/problems/search-in-rotated-sorted-array/)  |Use binary search for every one of left or right side is sorted check if target lies in that sorted part or not accordingly change the value of l and r  |  |
+| [Check for BST]( https://leetcode.com/problems/validate-binary-search-tree/) |Use keeping the previous value method . i.e use a reference variable prev initilised to lowest value and do simple inorder at each point if(root->val<=prev) return false else update prev = val check left and right  |  |
 
 ---
 <br>
