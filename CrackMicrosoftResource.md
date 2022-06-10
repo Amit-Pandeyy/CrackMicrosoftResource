@@ -70,7 +70,7 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Root to leaf path sum](https://leetcode.com/problems/path-sum/)  |do a preorder traversal at each before calling left or right reduce target-=root->val if(left||right) return true  at each node check if its leaf if(leaf) and target=root->val return true  if(null) return false;
 | [Reverse a linked list]( https://leetcode.com/problems/reverse-linked-list/)  |Use 3 sliding pointers intialised as a=head->next ,b=head,c=NULL loop while(b!=NULL) b->next=c c=b b=a, if(a) a=a->next  after loop return c;
 | [Remove every k’th node]( https://practice.geeksforgeeks.org/problems/remove-every-kth-node/1/)  |Use 2 pointers cur and prev and variable temp initialised as k if(temp==1) delete node using prev node i.e set prev->next = cur->next and again set temp=k  use dummy node to take care of head prev = dummy 
-| [Merge 2 sorted linked list]( https://leetcode.com/problems/merge-two-sorted-lists/)  |  |  |
+| [Merge 2 sorted linked list]( https://leetcode.com/problems/merge-two-sorted-lists/)  |Use 3 pointers (l1,l2,cur) l1(list1) ,l2(list2) ,cur(new merged list) initialise cur as dummy node  also take head variable to store head  use merging technique store each new node in cur->next move corresponding pointer  |  |
 | [Longest Even Length Substring such that Sum of First and Second Half is same]( https://practice.geeksforgeeks.org/problems/e015cb4d3f354b035d9665e7c8a54a7aefb1901b/1/) |  |  |
 | [k largest elements in an array]( https://leetcode.com/problems/kth-largest-element-in-an-array/) |  |  |
 | [Mirror Tree]( https://leetcode.com/problems/invert-binary-tree/)  |  |  |
