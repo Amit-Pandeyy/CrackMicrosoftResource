@@ -72,8 +72,8 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Remove every k’th node]( https://practice.geeksforgeeks.org/problems/remove-every-kth-node/1/)  |Use 2 pointers cur and prev and variable temp initialised as k if(temp==1) delete node using prev node i.e set prev->next = cur->next and again set temp=k  use dummy node to take care of head prev = dummy 
 | [Merge 2 sorted linked list]( https://leetcode.com/problems/merge-two-sorted-lists/)  |Use 3 pointers (l1,l2,cur) l1(list1) ,l2(list2) ,cur(new merged list) initialise cur as dummy node  also take head variable to store head  use merging technique store each new node in cur->next move corresponding pointer  |  |
 | [Longest Even Length Substring such that Sum of First and Second Half is same]( https://practice.geeksforgeeks.org/problems/e015cb4d3f354b035d9665e7c8a54a7aefb1901b/1/) |  |  |
-| [k largest elements in an array]( https://leetcode.com/problems/kth-largest-element-in-an-array/) |  |  |
-| [Mirror Tree]( https://leetcode.com/problems/invert-binary-tree/)  |  |  |
+| [k largest elements in an array]( https://leetcode.com/problems/kth-largest-element-in-an-array/) |Priority queue / min heap can be used just keep largest k elements in your in each iteration first push element to heap if size>k pop out element  |  |
+| [Mirror Tree]( https://leetcode.com/problems/invert-binary-tree/)  |Return type Node* for solve function first store value returned from left in temp node then store value from right in left  and after right call store right = temp  at last just return the root   |  |
 | [Median of Two Sorted Arrays]( https://leetcode.com/problems/median-of-two-sorted-arrays/)  |  |  |
 | [Determine if Two Trees are Identical]( https://leetcode.com/problems/same-tree/) |  |  |
 | [Max Rectangle in Binary Matrix]( https://leetcode.com/problems/maximal-rectangle/) |  |  |
