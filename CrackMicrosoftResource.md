@@ -75,7 +75,7 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [k largest elements in an array]( https://leetcode.com/problems/kth-largest-element-in-an-array/) |Priority queue / min heap can be used just keep largest k elements in your in each iteration first push element to heap if size>k pop out element  |  |
 | [Mirror Tree]( https://leetcode.com/problems/invert-binary-tree/)  |Return type Node* for solve function first store value returned from left in temp node then store value from right in left  and after right call store right = temp  at last just return the root   |  |
 | [Median of Two Sorted Arrays]( https://leetcode.com/problems/median-of-two-sorted-arrays/)  |Binary search approach apply binary search on shorter array then based on that make count decision for other array find l1,l2,r1,r2 and make decision based on their values    |  |
-| [Determine if Two Trees are Identical]( https://leetcode.com/problems/same-tree/) | base case (if(n1==NULL || n2==NULL) return n1==n2;)  if(val not equal) return false  if(left && right) return true  else return false;    |  |
+| [Determine if Two Trees are Identical]( https://leetcode.com/problems/same-tree/) | base case (if(n1==NULL or n2==NULL) return n1==n2;)  if(val not equal) return false  if(left && right) return true  else return false;    |  |
 | [Max Rectangle in Binary Matrix]( https://leetcode.com/problems/maximal-rectangle/) |  |  |
 | [Maximum Product Subarray ]( https://leetcode.com/problems/maximum-product-subarray/) |  |  |
 | [Edit Distance](https://practice.geeksforgeeks.org/problems/edit-distance3702/1/) |  |  |
