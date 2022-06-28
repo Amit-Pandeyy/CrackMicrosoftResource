@@ -77,8 +77,8 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Median of Two Sorted Arrays]( https://leetcode.com/problems/median-of-two-sorted-arrays/)  |Binary search approach apply binary search on shorter array then based on that make count decision for other array find l1,l2,r1,r2 and make decision based on their values    |  |
 | [Determine if Two Trees are Identical]( https://leetcode.com/problems/same-tree/) | base case (if(n1==NULL or n2==NULL) return n1==n2;)  if(val not equal) return false  if(left && right) return true  else return false;    |  |
 | [Max Rectangle in Binary Matrix]( https://leetcode.com/problems/maximal-rectangle/) |  |  |
-| [Maximum Product Subarray ]( https://leetcode.com/problems/maximum-product-subarray/) |  |  |
-| [Edit Distance](https://practice.geeksforgeeks.org/problems/edit-distance3702/1/) |  |  |
+| [Maximum Product Subarray ]( https://leetcode.com/problems/maximum-product-subarray/) |First divide all array to subparts not containig zero then call solve function for that subarray before this thing inittially run a for loop to check if zero exists if yes mark ans=0 else ans=INT_min  in solve function first find product of whole array if(+ve or size =1) return product directly else check left and right part product till first -ve from left or right return max(product/left,product/right)  |  |
+| [Edit Distance](https://practice.geeksforgeeks.org/problems/edit-distance3702/1/) |DP Question 3 types of choices if character no equal insert(i,J+1) , delete(i+1,j) , replace(i+1,J+1)  base cases two i>=l1 return l2-j  or j>=l2 return l1-i  |  |
 | [Longest Arithmetic Subsequence]( https://leetcode.com/problems/longest-arithmetic-subsequence/) |  |  |
 | [Coin Change]( https://leetcode.com/problems/coin-change-2/)  |  |  |
 
