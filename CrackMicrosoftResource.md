@@ -80,7 +80,7 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Maximum Product Subarray ]( https://leetcode.com/problems/maximum-product-subarray/) |First divide all array to subparts not containig zero then call solve function for that subarray before this thing inittially run a for loop to check if zero exists if yes mark ans=0 else ans=INT_min  in solve function first find product of whole array if(+ve or size =1) return product directly else check left and right part product till first -ve from left or right return max(product/left,product/right)  |  |
 | [Edit Distance](https://practice.geeksforgeeks.org/problems/edit-distance3702/1/) |DP Question 3 types of choices if character no equal insert(i,J+1) , delete(i+1,j) , replace(i+1,J+1)  base cases two i>=l1 return l2-j  or j>=l2 return l1-i  |  |
 | [Longest Arithmetic Subsequence]( https://leetcode.com/problems/longest-arithmetic-subsequence/) |  |  |
-| [Coin Change]( https://leetcode.com/problems/coin-change-2/)  |  |  |
+| [Coin Change]( https://leetcode.com/problems/coin-change-2/)  |DP questions  take  and not take choices  return sum(of answers from both choices )  base cases  if(amount==0) return 1    if(amount<0 or index>=n) return 0   use DP Unbounded 0/1 knapsack  |  |
 
 ---
 <br>
