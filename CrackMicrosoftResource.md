@@ -89,8 +89,8 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 
 | Problem Link | Status | Difficulty |
 | ------ | ------ | ------ |
-| [Spiral Matrix II]( https://leetcode.com/problems/spiral-matrix-ii/) |  |  |
-| [Largest Number ]( https://leetcode.com/problems/largest-number/) |  |  |
+| [Spiral Matrix II]( https://leetcode.com/problems/spiral-matrix-ii/) |Concept is similiar to printing a matrix in spiral form just maintain counter variable and keep incrementing at each step rest all those things are same   |  |
+| [Largest Number ]( https://leetcode.com/problems/largest-number/) |Good question  Normal sort will not work here as we only want to compare the most significant digit of all the numbers so use the custom comparator before that firstly convert all the nums to string format and then in comparator t1 = a+b , t2=b+a  return t1>t2 as we want to sort them in descending order of most significant digit after this just traverse new sorted vector keep adding elements to ans string  |  |
 | [Maximum Distance](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) |  |  |
 | [Next Permutation]( https://leetcode.com/problems/next-permutation/) |  |  |
 | [Anti Diagonals]( https://leetcode.com/problems/diagonal-traverse/)  |  |  |
