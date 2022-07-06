@@ -112,8 +112,8 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 
 | Problem Link | Status | Difficulty |
 | ------ | ------ | ------ |
-| [Partition List](https://leetcode.com/problems/partition-list/) |  |  |
-| [Reverse Nodes in k-Group]( https://leetcode.com/problems/reverse-nodes-in-k-group/) |  |  |
+| [Partition List](https://leetcode.com/problems/partition-list/) |Two pointer solution by using two dummy and creating two lists from same node by using thosetwo pointers after looping over the list just those two list using t1 and dummy d2  one thing you should ensure that after loop is over assign t2->next =NULL as new list it should be null Yaha me fasa bhi tha question me  |  |
+| [Reverse Nodes in k-Group]( https://leetcode.com/problems/reverse-nodes-in-k-group/) |Watch striver video for iterative solution using prev ,cur,nex and count variable 4 steps process  cur->next = nex->next , nex->next = prev->next , prev->next = nex , nex = cur->next   |  |
 | [Tapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/) |  |  |
 | [Simplify Path](https://leetcode.com/problems/simplify-path/) |  |  |
 | [Min Stack](https://leetcode.com/problems/min-stack/) |  |  |
