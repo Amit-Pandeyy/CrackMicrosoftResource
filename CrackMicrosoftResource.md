@@ -114,9 +114,9 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | ------ | ------ | ------ |
 | [Partition List](https://leetcode.com/problems/partition-list/) |Two pointer solution by using two dummy and creating two lists from same node by using thosetwo pointers after looping over the list just those two list using t1 and dummy d2  one thing you should ensure that after loop is over assign t2->next =NULL as new list it should be null Yaha me fasa bhi tha question me  |  |
 | [Reverse Nodes in k-Group]( https://leetcode.com/problems/reverse-nodes-in-k-group/) |Watch striver video for iterative solution using prev ,cur,nex and count variable 4 steps process  cur->next = nex->next , nex->next = prev->next , prev->next = nex , nex = cur->next   |  |
-| [Tapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/) |  |  |
-| [Simplify Path](https://leetcode.com/problems/simplify-path/) |  |  |
-| [Min Stack](https://leetcode.com/problems/min-stack/) |  |  |
+| [Tapping Rain Water]( https://leetcode.com/problems/trapping-rain-water/) |3 approaches for each we are finding water stored at each index  concept is for each index water stored is { min(leftmax and right max) - curheight}  brute is O(n^2)   better approach using prefix array from both left and right     Most optimal uses two pointer approach  watch striver video for this  intuition is basically the if(a[l]<=a[r]) check that you are making it ensures that always there is something greater than curleft max hence no need to check in right  similar the case for right side  |  |
+| [Simplify Path](https://leetcode.com/problems/simplify-path/) |Watch your leetcode solution for better understanding  stringstreaam  and stack is used   |  |
+| [Min Stack](https://leetcode.com/problems/min-stack/) |Using 2 stacks solutions is easy for in second stack push element if(curelement <= st2.top())  while pop operation check if(st1.top()==st2.top()) then pop from both stacks else only from st1  for min operation return st2.top()  Optimised approach uses a modified value appraoch in push case if(val < min) st.push(2*val-min) min = val   for pop if(top<min) min = 2*min - st.top()  then pop  for top  if(st.top() < min) return min   |  |
 | [All Unique Permutations ](https://leetcode.com/problems/permutations-ii/) |  |  |
 | [Generate all Parentheses](https://leetcode.com/problems/generate-parentheses/)  |  |  |
 | [Largest Continuous Sequence Zero Sum](https://www.interviewbit.com/problems/largest-continuous-sequence-zero-sum/)  |  |  |
