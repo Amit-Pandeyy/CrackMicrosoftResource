@@ -124,7 +124,7 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [LRU Cache](https://leetcode.com/problems/lru-cache/) |  |  |
 | [Construct Binary Tree From Inorder And Preorder]( https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  |  |
 | [Number of Provinces ]( https://leetcode.com/problems/number-of-provinces/) |BFS and DFS count no of disconnceted components of graph . Here slight difference is that graph is given in form adjacency matrix  |  |
-| [Subsets](https://leetcode.com/problems/subsets-ii/) |  |  |
+| [Subsets](https://leetcode.com/problems/subsets-ii/) |Pick and not pick logic with backtracking to hanlde the duplicates just make some changes whenever you pick an element change it's value to 11 and have condition like if(index==0 || nums[index]!=nums[index-1])( Then only make the pick call also while returning in this call pop_back the element and also chanage nums[index] val to original value   |  |
 | [Valid Sudoku]( https://leetcode.com/problems/valid-sudoku/) |  |  |
 | [Flatten Binary Tree to Linked List]( https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ )  |  |  |
 | [Gas Station]( https://leetcode.com/problems/gas-station/) |  |  |
