@@ -119,11 +119,11 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Min Stack](https://leetcode.com/problems/min-stack/) |Using 2 stacks solutions is easy for in second stack push element if(curelement <= st2.top())  while pop operation check if(st1.top()==st2.top()) then pop from both stacks else only from st1  for min operation return st2.top()  Optimised approach uses a modified value appraoch in push case if(val < min) st.push(2*val-min) min = val   for pop if(top<min) min = 2*min - st.top()  then pop  for top  if(st.top() < min) return min   |  |
 | [All Unique Permutations ](https://leetcode.com/problems/permutations-ii/) |Use swap vala logic with backtracking for permuations just a slight change introduce a  if(j==i || nums[j]!=nums[i] ) then swap(i,j) call perm()  swap(j,i)  |  |
 | [Generate all Parentheses](https://leetcode.com/problems/generate-parentheses/)  |Backtracking solution Watch leetcode solution and your code  2 methods one using only single variable count   and one by using  the two variables one for open and one for close  in one variable method you need to add one more if condition in base before adding temp to ans i.e. if(count=0)   |  |
-| [Largest Continuous Sequence Zero Sum](https://www.interviewbit.com/problems/largest-continuous-sequence-zero-sum/)  |  |  |
-| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |  |  |
+| [Largest Continuous Sequence Zero Sum](https://www.interviewbit.com/problems/largest-continuous-sequence-zero-sum/)  |Hashmap problem just store l and r to get array elements   |  |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |Smart sort us used for string  rest is similar to map wala method just chcek smart for O(n) sorting  |  |
 | [LRU Cache](https://leetcode.com/problems/lru-cache/) |  |  |
 | [Construct Binary Tree From Inorder And Preorder]( https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  |  |
-| [Number of Provinces ]( https://leetcode.com/problems/number-of-provinces/) |  |  |
+| [Number of Provinces ]( https://leetcode.com/problems/number-of-provinces/) |BFS and DFS count no of disconnceted components of graph . Here slight difference is that graph is given in form adjacency matrix  |  |
 | [Subsets](https://leetcode.com/problems/subsets-ii/) |  |  |
 | [Valid Sudoku]( https://leetcode.com/problems/valid-sudoku/) |  |  |
 | [Flatten Binary Tree to Linked List]( https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ )  |  |  |
