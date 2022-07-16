@@ -127,9 +127,9 @@ Difficulty Rating: **Easy | Easy-Medium | Medium | Medium-Hard | Hard**
 | [Subsets](https://leetcode.com/problems/subsets-ii/) |Pick and not pick logic with backtracking to hanlde the duplicates just make some changes whenever you pick an element change it's value to 11 and have condition like if(index==0 || nums[index]!=nums[index-1])( Then only make the pick call also while returning in this call pop_back the element and also chanage nums[index] val to original value   |  |
 | [Valid Sudoku]( https://leetcode.com/problems/valid-sudoku/) |  |  |
 | [Flatten Binary Tree to Linked List]( https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ )  |  |  |
-| [Gas Station]( https://leetcode.com/problems/gas-station/) |  |  |
-| [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts ]( https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)  |  |  |
-| [Word ladder]( https://leetcode.com/problems/word-ladder-ii/) |  |  |
+| [Gas Station]( https://leetcode.com/problems/gas-station/) |First create diff array gas[i]-cost[i] then by Kadanes algorithm  find starting point of subarray with maximum sum in diff array . Now starting from that point check if we could traverse full vector by using (%n) method if at some point sum<0 return -1  else after the loop return l  |  |
+| [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts ]( https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)  |Consider maximum at each point ;  |  |
+| [Word ladder]( https://leetcode.com/problems/word-ladder-ii/) | Tech dose solution create a modified adjacency list using BFS nad then do the DFs |  |
 | [Meeting Rooms]( https://www.interviewbit.com/problems/meeting-rooms/) |  |  |
 | [Distribute Candies]( https://leetcode.com/problems/distribute-candies/) |  |  |
 
